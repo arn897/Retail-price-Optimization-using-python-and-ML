@@ -2,6 +2,9 @@
 
 This project demonstrates how to use **Machine Learning** to optimize retail product pricing by analyzing historical data, exploring pricing trends, comparing with competitors, and predicting ideal prices to **maximize profit and maintain competitiveness**.
 
+> 🚀 **This project is deployed and live!**  
+> Access the interactive dashboard here: [Live App](https://retail-price-optimization-using-python-and-ml-jszjbazyblfvu2re.streamlit.app/)
+
 ---
 
 ## 📌 Objective
@@ -19,7 +22,7 @@ The dataset used contains:
 - Time data: `month_year`, `weekday`, `holiday`
 - Customer data: number of buyers, ratings, etc.
 
-> 📁 File: `retail_price.csv`  
+> 📁 File: [`retail_price.csv`](https://github.com/arn897/RetailPriceApp/blob/main/retail_price.csv)  
 > ✅ No missing values.
 
 ---
@@ -30,6 +33,14 @@ The dataset used contains:
 - **Pandas** for data manipulation
 - **Plotly Express & Graph Objects** for interactive visualizations
 - **Scikit-learn** for modeling and evaluation
+- **Streamlit** for deployment
+
+---
+
+## 🔗 Links
+
+- **GitHub Repo:** [RetailPriceApp](https://github.com/arn897/RetailPriceApp)  
+- **Notebook:** [Retail Price Optimization Notebook](https://github.com/arn897/RetailPriceApp/blob/main/Retail%20price%20optimization%20using%20python%20and%20ML.ipynb)
 
 ---
 
@@ -63,20 +74,17 @@ Predicted vs Actual prices plotted, along with an ideal prediction line.
 
 ---
 
-📌 Project Highlights
-Cleaned and explored 676 rows x 30 columns retail dataset
+## 📌 Project Highlights
+- Cleaned and explored 676 rows x 30 columns retail dataset
+- Engineered features to capture competitor pricing dynamics
+- Visualized key pricing behaviors and trends
+- Built an ML model to predict optimized retail prices
+- **Deployed live on Streamlit for interactive exploration**  
 
-Engineered features to capture competitor pricing dynamics
+---
 
-Visualized key pricing behaviors and trends
-
-Built an ML model to predict optimized retail prices
-
-📊 Future Work
-Try other ML models like Random Forest, XGBoost, or Linear Regression
-
-Add hyperparameter tuning using GridSearchCV
-
-Deploy with Streamlit or Flask
-
-Simulate pricing scenarios to estimate profit gain
+## 📊 Future Work
+- Try other ML models like Random Forest, XGBoost, or Linear Regression
+- Add hyperparameter tuning using GridSearchCV
+- Expand Streamlit app to allow manual input for predictions
+- Simulate pricing scenarios to estimate profit gain
